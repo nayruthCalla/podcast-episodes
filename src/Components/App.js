@@ -4,9 +4,14 @@ import manual from '../assets/images/sliderManual.png'
 
 const Container = styled.div``
 const Figure = styled.figure`
-  display: flex;
-  justify-content: center;
-  margin: 0 0 2rem 0;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+  }
+  @media screen and (min-width: 1024px) {
+  }
 `
 const Image = styled.img``
 const Title = styled.h1`
