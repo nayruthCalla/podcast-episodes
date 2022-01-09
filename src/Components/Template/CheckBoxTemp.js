@@ -23,14 +23,18 @@ const Image = styled.img`
   width: 100%;
 `
 const UlCont = styled.div`
-  max-width: 52%;
-  padding: 2rem;
-  background: white;
-  border-top-right-radius: 32px;
-  border-bottom-right-radius: 32px;
-  padding: 60px 80px;
-  height: 300px;
-  overflow-y: scroll;
+  @media screen and (min-width: 768px) {
+    max-width: 52%;
+    padding: 2rem;
+    background: white;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding: 60px 80px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  @media screen and (min-width: 1024px) {
+  }
 `
 const Title = styled.h1`
   font-weight: bold;
