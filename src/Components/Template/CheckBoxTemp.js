@@ -8,10 +8,16 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
+  flex: 1;
 `
 const Figure = styled.figure`
-  filter: drop-shadow(0px 4px 24px #453f3f);
-  width: 37%;
+  display: none;
+  @media screen and (min-width: 768px) {
+    filter: drop-shadow(0px 4px 24px #453f3f);
+    width: 37%;
+  }
+  @media screen and (min-width: 1024px) {
+  }
 `
 const Image = styled.img`
   width: 100%;
