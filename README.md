@@ -1,4 +1,4 @@
-# PontuPrecio
+# Podcast Episodes
 ### ❤️ Revisa la [DEMO](https://podcast-episode.netlify.app/) 👀 ❤️
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a7a4fc1-18c9-4c2b-89ab-81fe0efc5b92/deploy-status)](https://app.netlify.com/sites/podcast-episode/deploys)
 
